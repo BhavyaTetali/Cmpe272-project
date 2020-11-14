@@ -1,0 +1,31 @@
+{
+  "name": "Cmpe272-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 30000 ./test/*/*.js --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BhavyaTetali/Cmpe272-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BhavyaTetali/Cmpe272-project/issues"
+  },
+  "homepage": "https://github.com/BhavyaTetali/Cmpe272-project#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "mocha-steps": "^1.3.0",
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.0",
+    "mocha": "^8.1.3",
+    "nock": "^13.0.4",
+    "node-mocks-http": "^1.9.0"
+  }
+}

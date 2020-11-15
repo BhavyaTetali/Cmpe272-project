@@ -11,7 +11,7 @@ describe('Hello World Server', () => {
           .get('/')
           .end((err, res) => {
             expect(res.status).to.equal(200);
-            expect(res.text).to.equal('Hello World!');
+            expect(res.text).to.equal('Hello World!This is a Jenkins CI test!');
             done()
           })
       })
